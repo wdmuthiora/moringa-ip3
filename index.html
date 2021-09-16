@@ -5,7 +5,7 @@
   <title>Delani Studio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link href="/css/styles.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/styles.css" type="text/css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Dennis Muthiora">
   <meta name="description" content="Akan Name Generator">
@@ -16,13 +16,16 @@
 </head>
 
 <body>
-  <div>
+  <div class="container-fluid">
     <div id="welcome">
-      <img href="../images/assets/logo/logo.png">
-      <h2>WELCOME</h2>
-      <h2>TO DELANI STUDIO</h2>
+      <img src="../images/assets/logo/logo.png">
+      <br></br>
+
+      <h4>WELCOME</h4>
+      <h4>TO DELANI STUDIO</h4>
       <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-      <img href="/home/muthiora/Documents/Moringa-School-Projects/ip3/images/assets/mouse_click.png">
+      <img src="../images/assets/mouse_click.png">
+      <br></br>
     </div>
 
     <div id="about-us">
@@ -45,35 +48,45 @@
 
     <div id="what-we-do">
       <h4>WHAT WE DO</h4>
-      <div>
-        <div>
+      <br></br>
+      <div class="row">
+        <div class="col-sm">
           <img src="../images/assets/services_icons/design_icon.png">
         </div>
 
-        <div>
+        <div class="col-sm">
           <img src="../images/assets/services_icons/dev_icon.png">
         </div>
-        
-        <div>
-          <img
-            src="../images/assets/services_icons/product_icon.png">
+
+        <div class="col-sm">
+          <img src="../images/assets/services_icons/product_icon.png">
         </div>
 
       </div>
     </div>
 
-    <div id="portfolio">
-      <div>
+    <div id="portfolio" class="container">
+      
         <h4>PORTFOLIO</h4>
-        <img src="../images/assets/portfolio/work4.jpg">
-        <img src="../images/assets/portfolio/work3.jpg">
-        <img src="../images/assets/portfolio/work2.jpg">
-        <img src="../images/assets/portfolio/work1.jpg">
-        <img src="../images/assets/portfolio/work5.jpg">
-        <img src="../images/assets/portfolio/work6.jpg">
-        <img src="../images/assets/portfolio/work7.jpg">
-        <img src="../images/assets/portfolio/work8.jpg">
 
+        <div class="row" class="flex-wrap" id="portfolio-img">
+          <div class="col-sm-3"><img src="../images/assets/portfolio/work4.jpg" class="img-fluid">
+          </div>
+          <div class="col-sm-3"><img src="../images/assets/portfolio/work3.jpg" class="img-fluid"> 
+          </div>
+          <div class="col-sm-3"><img src="../images/assets/portfolio/work2.jpg" class="img-fluid">
+          </div>
+          <div class="col-sm-3"><img src="../images/assets/portfolio/work1.jpg" class="img-fluid">
+          </div>
+          <div class="w-0"></div>
+          <div class="col-sm-3"><img src="../images/assets/portfolio/work5.jpg" class="img-fluid">
+          </div>
+          <div class="col-sm-3"><img src="../images/assets/portfolio/work6.jpg" class="img-fluid">
+          </div>
+          <div class="col-sm-3"><img src="../images/assets/portfolio/work7.jpg" class="img-fluid">
+          </div>
+          <div class="col-sm-3"><img src="../images/assets/portfolio/work8.jpg" class="img-fluid">
+          </div>
 
       </div>
     </div>
@@ -83,6 +96,8 @@
     </div>
 
     <div id="social-media">
+            <br></br>
+
       <img src="../images/assets/social_icons/twitter.png">
       <img src="../images/assets/social_icons/dribble.png">
       <img src="../images/assets/social_icons/facebook.png">
@@ -96,6 +111,7 @@
     </div>
 
     <div id="footer">
+      <br></br>
       <h4>DELANI STUDIO</h4>
       <h4>2019</h4>
     </div>
