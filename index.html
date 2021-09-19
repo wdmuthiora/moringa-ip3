@@ -5,6 +5,7 @@
   <title>Delani Studio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
   <link rel="stylesheet" href="/css/styles.css" type="text/css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Dennis Muthiora">
@@ -13,6 +14,11 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
+  
+  <!-- from mailchimp -->
+  <style type="text/css">#mc_embed_signup { background: #fff; clear: left; font: 14px Helvetica, Arial, sans-serif; }</style>
+  <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+
 </head>
 
 <body>
@@ -32,6 +38,7 @@
       <img src="../images/assets/mouse_click.png" id="smaller-icon">
       <br></br>
     </div>
+
     <!-- about us -->
     <div class="about-us" id="about-us">
       <br></br>
@@ -179,17 +186,32 @@
     <!-- contact us -->
     <div id="contact-us">
       <h4>CONTACT US</h4>
+    <form action="">
       <div class="row">
-        <div class="col-sm-5" style="margin-left: auto;"></div>
-        <div class="col-sm-4" style="margin-right: auto;"></div>
+<!-- input field -->
+        <div class="col-sm-5" style="margin-left: auto;">
+            <label for="name"></label>
+            <input type="text" placeholder="Name..." value="" class="input">
+        </div>
+
+        <div class="col-sm-4" style="margin-right: auto;">
+            <label for="email"></label>
+            <input type="text"  placeholder="Email..." value="" class="input">
+        </div>
       </div>
+      
       <div class="row">
-
-
-        <div class="col-sm-9"></div>
-
-
+        <div class="col-sm-9">
+            <label for="Message"></label>
+            <input type="text" placeholder="Your message here..." value="" class="input">
+        </div>
       </div>
+    </form>
+     
+
+
+
+
 
     </div>
 

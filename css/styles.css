@@ -90,3 +90,12 @@ div#what-we-do {
 .description{
   display:none;
 }
+.input{
+  opacity: 0.8;
+  background: none;
+  box-sizing: border-box;
+}
+
+::placeholder { 
+  color: white;
+  opacity: 1;
