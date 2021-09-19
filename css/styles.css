@@ -82,3 +82,7 @@ div#what-we-do {
   margin-right: auto;
   margin-left: auto;
 }
+
+.description{
+  display:none;
+}
