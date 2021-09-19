@@ -11,6 +11,10 @@ html{
 div {
   text-align: center;
 }
+.popuptext1 .popuptext2 .popuptext3 .popuptext4 .popuptext5 .popuptext6 .popuptext7 .popuptext8
+ {
+  color: white;
+}
 
 div#welcome {
   background-image: url("../images/assets/backgrounds/h_img.jpg");
