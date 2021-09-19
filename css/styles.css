@@ -7,17 +7,18 @@ h4 h6{
 html{
   font-family: Roboto;
 }
-
-div {
-  text-align: center;
-}
 .popuptext1 .popuptext2 .popuptext3 .popuptext4 .popuptext5 .popuptext6 .popuptext7 .popuptext8
  {
   color: white;
 }
 
+div {
+  text-align: center;
+}
+
+
 div#welcome {
-  background-image: url("./images/assets/backgrounds/h_img.jpg");
+  background-image: url("../images/assets/backgrounds/h_img.jpg");
   background-repeat: no-repeat;
   color: white;
   background-size: cover;
@@ -38,7 +39,7 @@ div#welcome {
 }
 
 div#services {
-  background-image: url("./images/assets/backgrounds/s_image.jpg");
+  background-image: url("../images/assets/backgrounds/s_image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
@@ -47,7 +48,7 @@ div#services {
 }
 
 div#contact-us {
-  background-image: url("./images/assets/backgrounds/c_image.jpg");
+  background-image: url("../images/assets/backgrounds/c_image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
