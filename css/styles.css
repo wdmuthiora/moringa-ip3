@@ -74,22 +74,17 @@ div#what-we-do {
 }
 .col-sm-4{
   height: 2em;
-  border:white solid 1px;
   margin-bottom: 2em;
   margin-left: 2em;
   margin-right: auto;
 }
 .col-sm-5{
   height: 2em;
-  border: white solid 1px;
   margin-bottom: 2em;
   margin-left: auto;
 }
 .col-sm-9{
   height:13em;
-  padding-left: 5%;
-  padding-right: 5%;
-  border: white solid 1px;
   width: 50%;
   margin-right: auto;
   margin-left: auto;
@@ -102,6 +97,7 @@ div#what-we-do {
   opacity: 1;
   background: none;
   width: 100%;
+  border: white solid 1px;
 
 }
 
@@ -109,4 +105,8 @@ div#what-we-do {
   color: white;
   opacity: 0.91;
   top: 1em;
+}
+textarea{
+  border-radius: 0%;
+  border: white solid 1px;
 }

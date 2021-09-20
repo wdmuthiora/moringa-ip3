@@ -194,8 +194,11 @@ $(document).ready(function () {
 })
 $(document).ready(function () {
   $("#work8").hover(function () {
+    // hover in
     $(".popuptext8").css("color", "black");
-  }, function () {
+  },
+    //hover out
+    function () {
     $(".popuptext8").css("color", "white");
   })
 })
@@ -211,6 +214,3 @@ $(document).ready(function () {
   });
 
 })
-
-
-
