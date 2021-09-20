@@ -199,3 +199,18 @@ $(document).ready(function () {
     $(".popuptext8").css("color", "white");
   })
 })
+
+// event listener for the Enter key.
+$(document).ready(function () {
+  const inputName = document.querySelector('#message');
+  inputName.addEventListener('keyup', function (e) {
+    if (e.keyCode === 13) {
+      var name = $("input#name").val()
+      alert(name + ' we have received your message. Thank you for reaching out to us.');
+    }
+  });
+
+})
+
+
+

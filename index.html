@@ -8,7 +8,10 @@
   <link rel="stylesheet" href="../css/styles.css" type="text/css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Dennis Muthiora">
-  <meta name="description" content="Akan Name Generator">
+  <meta name="description" content="Delani Studio">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
   <meta charset="UTF-8">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -27,11 +30,10 @@
       <br></br>
       <br></br>
 
-      <h4>WELCOME</h4>
-      <h4>TO DELANI STUDIO</h4>
+      <h1>WELCOME</h1>
+      <h1>TO DELANI STUDIO</h1>
       <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-      <!-- <img src="./images/assets/mouse_click.png" id="smaller-icon"> -->
-     
+     <!-- This attribute element is used to move the page to #about-us when clicked -->
       <a href="#about-us">
         <img src="./images/assets/mouse_click.png" id="mouse-icon">
       </a>
@@ -188,21 +190,21 @@
       <form action="http://eepurl.com/hIIEIv" method="POST">
         <div class="row">
           <!-- input field -->
-          <div class="col-sm-5" style="background-color: pink;">
-            <label for="name"></label>
-            <input type="text" placeholder="Name..." value="" class="input" style="background-color: yellowgreen;">
+          <div class="col-sm-5">
+            <!-- <label for="name"></label> -->
+            <input type="text" placeholder="Name..." value="" class="input" id="name">
           </div>
 
           <div class="col-sm-4">
-            <label for="email"></label>
-            <input type="text" placeholder="Email..." value="" class="input">
+            <!-- <label for="email"></label> -->
+            <input type="text" placeholder="Email..." value="" class="input" id="email">
           </div>
         </div>
 
         <div class="row">
           <div class="col-sm-9">
-            <label for="Message"></label>
-            <input type="text" placeholder="Your message here..." value="" class="input">
+            <!-- <label for="Message"></label> -->
+            <input type="text" placeholder="Your message here..." value="" class="input" id="message">
           </div>
         </div>
       </form>

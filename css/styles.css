@@ -1,11 +1,8 @@
 p {
   font-size: 0.8em !important;
 }
-h4 h6{
-  font-weight: bold;
-}
-html{
-  font-family: Roboto;
+h1 h2 h3 h4 h5 h6{
+  font-weight: bolder;
 }
 
 .container-fluid{
@@ -102,11 +99,14 @@ div#what-we-do {
   display:none;
 }
 .input{
-  opacity: 0.99;
+  opacity: 1;
   background: none;
+  width: 100%;
+
 }
 
 ::placeholder { 
   color: white;
   opacity: 0.91;
+  top: 1em;
 }
