@@ -7,10 +7,6 @@ h4 h6{
 html{
   font-family: Roboto;
 }
-.popuptext1 .popuptext2 .popuptext3 .popuptext4 .popuptext5 .popuptext6 .popuptext7 .popuptext8
- {
-  color: white;
-}
 
 .container-fluid{
   left: 0%;
@@ -40,7 +36,7 @@ div#welcome {
   width: 5%;
   margin-top: 18%;
 }
-/* previous */
+/* previous #small-icon style*/
 /* #smaller-icon{
   width: 1%;
   margin-top: 8%;
@@ -106,10 +102,8 @@ div#what-we-do {
   display:none;
 }
 .input{
-  opacity: 0.8;
+  opacity: 0.99;
   background: none;
-  box-sizing: border-box;
-  left:0;
 }
 
 ::placeholder { 
