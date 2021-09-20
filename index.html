@@ -13,7 +13,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script src="../js/scripts.js"></script>
-  
+
 </head>
 
 <body>
@@ -30,7 +30,11 @@
       <h4>WELCOME</h4>
       <h4>TO DELANI STUDIO</h4>
       <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-      <img src="./images/assets/mouse_click.png" id="smaller-icon">
+      <!-- <img src="./images/assets/mouse_click.png" id="smaller-icon"> -->
+     
+      <a href="#about-us">
+        <img src="./images/assets/mouse_click.png" id="mouse-icon">
+      </a>
       <br></br>
     </div>
 
@@ -181,32 +185,27 @@
     <!-- contact us -->
     <div id="contact-us">
       <h4>CONTACT US</h4>
-    <form action="">
-      <div class="row">
-<!-- input field -->
-        <div class="col-sm-5" style="margin-left: auto;">
+      <form action="http://eepurl.com/hIIEIv" method="POST">
+        <div class="row">
+          <!-- input field -->
+          <div class="col-sm-5">
             <label for="name"></label>
             <input type="text" placeholder="Name..." value="" class="input">
+          </div>
+
+          <div class="col-sm-4">
+            <label for="email"></label>
+            <input type="text" placeholder="Email..." value="" class="input">
+          </div>
         </div>
 
-        <div class="col-sm-4" style="margin-right: auto;">
-            <label for="email"></label>
-            <input type="text"  placeholder="Email..." value="" class="input">
-        </div>
-      </div>
-      
-      <div class="row">
-        <div class="col-sm-9">
+        <div class="row">
+          <div class="col-sm-9">
             <label for="Message"></label>
             <input type="text" placeholder="Your message here..." value="" class="input">
+          </div>
         </div>
-      </div>
-    </form>
-     
-
-
-
-
+      </form>
 
     </div>
 

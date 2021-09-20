@@ -12,6 +12,10 @@ html{
   color: white;
 }
 
+.container-fluid{
+  left: 0%;
+  right: 0%;
+}
 div {
   text-align: center;
 }
@@ -22,16 +26,25 @@ div#welcome {
   background-repeat: no-repeat;
   color: white;
   background-size: cover;
-  height: 39em;
+  width: 1920;
+  height: 45em;
 }
+/* positioning, from Faith */
+#mouse-icon{
+  position: relative;
+  top: 10.9em;
+}
+
+
 #small-icon {
   width: 5%;
   margin-top: 18%;
 }
-#smaller-icon{
+/* previous */
+/* #smaller-icon{
   width: 1%;
   margin-top: 8%;
-}
+}  */
 
 .social-icons{
   height: 4em;
@@ -71,12 +84,13 @@ div#what-we-do {
   border:white solid 1px;
   margin-bottom: 2em;
   margin-left: 2em;
+  margin-right: auto;
 }
 .col-sm-5{
   height: 2em;
   border: white solid 1px;
   margin-bottom: 2em;
-  margin-left: 2em;
+  margin-left: auto;
 }
 .col-sm-9{
   height:13em;
@@ -95,8 +109,10 @@ div#what-we-do {
   opacity: 0.8;
   background: none;
   box-sizing: border-box;
+  left:0;
 }
 
 ::placeholder { 
   color: white;
   opacity: 0.91;
+}
